@@ -1,11 +1,11 @@
-#Coders Triangle Token (CTT)
+# Coders Triangle Token (CTT)
 CTT is a binance based protocol which aims bringing the most profit to the ecosystem by using the blockchain technology in financial activities.
 
 Coders Triangle is a Software Development Company that has focused on developing software products that will help make students' and teachers' life in to be at ease.
 
 We are focused on creating real wealth for members of our ecosystem, connecting the Coders' Triangle Token to real-life use case products that grow sectors of the economy (education, e-commerce, online payments, courier services, etc) and life of the participants. Thus the Coders' Triangle project go being beyond just being speculative instruments for quick gains.
 
-#Tokens
+# Tokens
 
 We used a thoroughly vetted OpenZeppelin token implementations.
 
@@ -21,4 +21,4 @@ First, custodians have to deposit BNB tokens as collateral in a smart contract. 
 
 #Deployed Contracts / Hash
 
-[⋅⋅*(CTT) Smart Contract -](https://bscscan.com/address/0x1aabf3c7e7893d46909309b6fd893b291c48a8f4)
+⋅⋅* (CTT) Smart Contract - <https://bscscan.com/address/0x1aabf3c7e7893d46909309b6fd893b291c48a8f4>
