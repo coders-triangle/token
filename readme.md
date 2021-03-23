@@ -1,35 +1,24 @@
-Coders Triangle Token (CTT)
-Smart contracts on Binance Chain via a decentralized sidechain bridge with NEO
+#Coders Triangle Token (CTT)
+CTT is a binance based protocol which aims bringing the most profit to the ecosystem by using the blockchain technology in financial activities.
 
-TL;DR
-SmartBNB is a project that enables Binance Chain tokens to trustlessly use smart contracts in the NEO blockchain through sidechains.
+Coders Triangle is a Software Development Company that has focused on developing software products that will help make students' and teachers' life in to be at ease.
 
-What is smartBNB?
-SmartBNB is a trustless bridge that enables tokens on Binance Chain to be transferred to Neo’s blockchain and back. This enables tokens issued on Binance chain to use smart contracts in the Neo blockchain. As such, token issuers can benefit from Binance Chain’s DEX while taking advantage of Neo’s smart contracting capabilities.
+We are focused on creating real wealth for members of our ecosystem, connecting the Coders' Triangle Token to real-life use case products that grow sectors of the economy (education, e-commerce, online payments, courier services, etc) and life of the participants. Thus the Coders' Triangle project go being beyond just being speculative instruments for quick gains.
 
-Sending tokens from Binance Chain to Neo is done by locking tokens on Binance Chain, at which point the same number of tokens are minted on Neo. Once tokens are minted on Neo, they can be used for Neo-based smart contracts. User can later redeem tokens by burning them and unlocking the original tokens on Binance Chain. A collateral-based system is used to ensure that, in the event of any irregularity, users are fully compensated.
+#Tokens
+
+We used a thoroughly vetted OpenZeppelin token implementations.
+
+This repo contains Solidity smart contract code for simple, standards-compliant tokens on Binance. Adhering to standards allows other contract developers.
+
+The repo currently implements BEP20 tokens, and more may be added in the future.
+
+Sending tokens from Binance Chain to CTT is done by locking tokens on Binance Chain, there will be no newly minted token. User can later redeem tokens by burning them and unlocking the original tokens on Binance Chain. A collateral-based system is used to ensure that, in the event of any irregularity, users are fully compensated.
 
 How does it work?
-Like sidechains, SmartBNB system employs a lock=mint and burn=unlock system. The protocol ensures the secure locking of tokens on Binance Chain by using fully-collateralized custodians.
 
-First, custodians have to deposit GAS tokens as collateral in a smart contract. These custodians can then receive and safekeep tokens from SmartBNB users who want to port tokens from Binance Chain to Neo.
+First, custodians have to deposit BNB tokens as collateral in a smart contract. These custodians can then receive and safekeep tokens from CTT users who want to port tokens from Binance Chain to CTT.
 
-When a user sends tokens to a custodian on Binance Chain, they are locked in the custodian’s vault. The protocol then mints new tokens on Neo to represent the locked tokens and sends them to the user. Later, users can burn their Neo-based tokens to retrieve their original tokens on Binance Chain. The custodian is forced to send these tokens back to the users, as the custodian will lose his/her collateral if this doesn’t happen.
+#Deployed Contracts / Hash
 
-Because of this collateral, which is set to be more than 150% of the locked tokens, the protocol is trustless. Custodians are heavily incentivized to behave honestly, as they will incur significant financial losses if they don’t. Users are fully protected from dishonest behavior by custodians, as their collateral would be given to affected users.
-
-Custodians are rewarded for their custodial services. Anyone can become a custodian by depositing Neo as a bond. For the first time, it is possible to receive a return on capital that is locked on the Neo blockchain.
-
-For more information, check out our protocol specification.
-
-Deploy smartBNB for your own token
-Change the following constants inside Contract.cs:
-PriceOracle (you will need to generate the private key to be used in the oracle contract)
-Denom
-Name()
-Symbol()
-Deploy a full node along with NeoPubSub
-Deploy the updated Contract.cs to MainNet or TestNet
-Deploy a price oracle for your token
-Deploy a collateral provider
-Deploy a system that sends alerts on collateral liquidations for arbitrageurs
+[⋅⋅*(CTT) Smart Contract -](https://bscscan.com/address/0x1aabf3c7e7893d46909309b6fd893b291c48a8f4)
