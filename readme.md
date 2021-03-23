@@ -15,10 +15,10 @@ The repo currently implements BEP20 tokens, and more may be added in the future.
 
 Sending tokens from Binance Chain to CTT is done by locking tokens on Binance Chain, there will be no newly minted token. User can later redeem tokens by burning them and unlocking the original tokens on Binance Chain. A collateral-based system is used to ensure that, in the event of any irregularity, users are fully compensated.
 
-How does it work?
+## How does it work?
 
 First, custodians have to deposit BNB tokens as collateral in a smart contract. These custodians can then receive and safekeep tokens from CTT users who want to port tokens from Binance Chain to CTT.
 
-#Deployed Contracts / Hash
+### Deployed Contracts / Hash
 
-⋅⋅* (CTT) Smart Contract - <https://bscscan.com/address/0x1aabf3c7e7893d46909309b6fd893b291c48a8f4>
+* (CTT) Smart Contract - <https://bscscan.com/address/0x1aabf3c7e7893d46909309b6fd893b291c48a8f4>
