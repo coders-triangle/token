@@ -22,3 +22,6 @@ First, custodians have to deposit BNB tokens as collateral in a smart contract. 
 ### Deployed Contracts / Hash
 
 * (CTT) Smart Contract - <https://bscscan.com/address/0x1aabf3c7e7893d46909309b6fd893b291c48a8f4>
+
+### License
+GPL
